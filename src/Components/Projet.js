@@ -4,11 +4,16 @@ const Projet =()=> {
           <h1 className="style-generale">
                PROJET
           </h1> 
-        <div className="projet-left">
-          <p>PROJET1</p>
-          <p>PROJET2</p>
-          <p>PROJET3</p>
-          <p>PROJET4</p>
+        <div className="projet-content">
+                  <div >
+                    <div className="projet-photo"></div>
+                    <p className="projet-nom"> PROJET1</p>
+                  </div>
+                  <div>
+                    <div className="projet-photo"> </div>
+                    <p className="projet-nom">PROJET1</p>
+                  </div>
+                  
         </div>
       </section>
        

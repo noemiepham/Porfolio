@@ -1,16 +1,17 @@
 #home-background {
   background: url(./photoCV/homebackgroun.png) center center/cover;
-  height: 800px;
+  height: 100vh;
   width: 100vw;
   z-index: 1;
   left: 0;
 }
 /* text of homepage  */
 .text {
-  font-size: 40px;
+  font-size: 60px;
   font-family: cursive;
   text-decoration: white;
   color: white;
+  padding-top: 100px;
  
 }
 .text span {
@@ -21,24 +22,29 @@
   justify-content: center;
 }
 /* button view more and arrowdown */
+.flex-wrap-viewbox {
+  display: flex;
+  justify-content: center;
+}
 .viewbox {
   border: 2px solid #f9f0f0;
   display: inline-flex;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
   color: white;
   align-items: center;
+  padding: 10px;
 }
 /* button click menu hide and show */
 .button-icon {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   position: fixed;
   z-index: 10;
   margin-right: 5px;
 }
 header { /* make button icon left of page */
-  margin-top: 17px;
+  margin-top: 20px;
   display: flex;
   justify-content: flex-end;
 } 
@@ -46,92 +52,111 @@ header { /* make button icon left of page */
   display: flex;
   justify-content: flex-end;
   color: white;
+  font-size: 20px;
+}
+.button-list button {
+  font-size: 20px;
+  margin: 5px;
 }
 
 /* ABOUT */
 .About {
-  width: 100%;
-  height: 800px;
-}
-.About h1 { 
-  background-image: url(./photoCV/ABOUT_PHOTO.png); 
+  background: url("./photoCV/About-new.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .style-generale {
-  margin-top: 10px;
-  width: 100%;
-  height: 100px;
-  color: #f9f0f0;
-  font-size: 40px;
-  font-family: cursive;
   display: flex;
+  font-size: 50px;
+  font-weight: bold;
   justify-content: center;
-  align-items: center;
+  color:#f9f0f0;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  padding-top: 100px;
 }
 .circle {
-      background-image: url(./photoCV/ABOUT_PHOTO.png);
+      background-image: url(./photoCV/aubout-circle.png);
       clip-path: circle(50%);
-      Width : 200px;
-      Height :  200px;
+      Width : 300px;
+      Height :  300px;
       Top :  150 px;
       Left : 500px;
 }
 .circle-flex {
   display: flex;
   justify-content: space-between;
-  margin: 40px; 
+  margin:   150px;
 }
 .circle-flex span{
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
   color: white; 
+}
+.textAbout-p {
+  margin-bottom: 30px;
 }
 .About p {
 text-align: center;
-font-size: 20px;
+font-size: 30px;
 font-family: cursive;
 font-weight: bold;
 display: flex;
 justify-content: center;
+text-shadow: 2px 2px 4px rgb(88, 81, 81)
 }
 /*  SKILLS*/
 .Skills {
-  width: 100%;
-  height: 800px;
-}
-.Skills h1 { 
-  background-image: url(./photoCV/ABOUT_PHOTO.png); 
-}
+    background: url("./photoCV/About-new.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .content-skill {
   display: flex;
   justify-content: space-between;
   margin-left: 50px;
-  margin-right: 100px;
+  margin-right: 200px;
   
 }
 .skill-left {
 background-image: url(./photoCV/skillbacground-circle.png);
   width: 600px;
   height: 600px;
+
 }
 div.photo-cv {
   margin-left: 120px;
   margin-top: 120px;
+  height: 250px;
+  background-image: url("./photoCV/Quycv.png");
+  background-repeat: no-repeat;
+  width: 100%;
+
 }
-div.photo-cv p {
-  font-size: 20px;
+.skill-left p {
+  font-size: 30px;
   font-weight: bold;
+  background-color: #f9f0f0;
+  text-align: center;
 }
 .skill-right  p {
- 
-  width: 400px;
-  height: 40px;
-  margin-top: 30px;
+  width: 500px;
+  height: 60px;
   border-radius: 10px;
   color: #f9f0f0;
   font-weight: bold;
   justify-content: center;
   display: flex;
   align-items: center;
-  transform: rotate(-10deg);
+  transform: rotate(-7deg);
+  margin-bottom: 40px;
+  font-size: 25px;
+  text-shadow: 1px 1px 3px rgb(133, 126, 126);
 }
 #css {
   background-image: url(./photoCV/HTML.png);
@@ -160,10 +185,77 @@ div.photo-cv p {
  
 /* PROJET */
 .Projet {
+
+      background: url("./photoCV/PROJET_PHOTO.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.projet-content {
+  display: flex;
   width: 100%;
   height: 800px;
+  justify-content: center;
 }
-.Projet h1 { 
-  background-image: url(./photoCV/ABOUT_PHOTO.png); 
+.projet-content p {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+div.projet-photo {
+  width: 400px;
+  height: 400px;
+  background-image: url("./photoCV/css.png"); 
+  margin: 20px;
 }
 /* CONTACT */
+.Contact {
+background: url("./photoCV/CONTACT_PHOTO.png") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.type-input {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 800px;
+  opacity: 30%;
+}
+.type-input input {
+  height: 60px;
+  margin-bottom: 30px;
+}
+.contact-text {
+  padding: 60px;
+}
+.contact-text h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #f9f0f0;
+  margin-bottom: 30px;
+}
+.contact-text h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #f9f0f0;
+ 
+}
+textarea {
+  height: 200px;
+  margin-bottom: 40px;
+}
+.Contact button  {
+  width: 300px;
+  height: 50px;
+  top: 500px;
+  left: 450px;
+  opacity: 40%;
+}
+div.submit-me {
+  display: flex;
+  justify-content: center;
+}

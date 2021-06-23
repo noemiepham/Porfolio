@@ -11,7 +11,7 @@ const About = () => {
                     <button className="circle"> <span>Responsive</span> </button>
                     <button className="circle"> <span>Comunication</span> </button>
             </div>
-            <div>
+            <div className="textAbout-p">
                 <p className="textAbout">Websites don't have to be static, I love making pages come to life.</p>
                 <p className="textAbout">website is like sitting at home, and developers are brothers</p>
                 <p className="textAbout">My website is responsive to all interfaces</p>

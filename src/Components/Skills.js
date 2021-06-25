@@ -8,7 +8,8 @@ const Skills =()=> {
                 <div className="content-skill">
                         <div className="skill-left">
                                 <div className="photo-cv"></div>
-                                <p>I’m a Front-End Developer </p>
+                                <button><a href="./CV_E03.docx" download>Download my CV </a></button>
+                                
                         </div>
                         <div className="skill-right">
                             <p id="HTML">HTML</p>

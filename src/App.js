@@ -2,7 +2,7 @@ import './App.css';
 import About from './Components/About'
 import Home from './Components/Home'
 import Skills from './Components/Skills'
-import Projet from './Components/Projet'
+import Projetsource from './Components/Projetsource'
 import Contact from './Components/Contact'
 import Menu from './Components/Menu'
 import { useState } from 'react';
@@ -36,7 +36,7 @@ function App() {
      
             <Skills />
 
-            <Projet />
+            <Projetsource/>
 
             <Contact />
     </div>

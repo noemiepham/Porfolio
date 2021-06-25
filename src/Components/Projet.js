@@ -1,22 +1,16 @@
-const Projet =()=> {
+const Projet =(props)=> {
     return (
-      <section className="Projet">
-          <h1 className="style-generale">
-               PROJET
-          </h1> 
-        <div className="projet-content">
+     
                   <div >
-                    <div className="projet-photo"></div>
-                    <p className="projet-nom"> PROJET1</p>
+                    <div className="projet-photo">
+                        <img src={props.imageAdress} alt="" />
+                    </div>
+                    <div className="projet-nom">
+                        <p > {props.name0fprojet}</p>
+                        <p > {props.date}</p>
+                        <p > {props.code}</p>
+                    </div>
                   </div>
-                  <div>
-                    <div className="projet-photo"> </div>
-                    <p className="projet-nom">PROJET1</p>
-                  </div>
-                  
-        </div>
-      </section>
-       
     )
 }
 export default Projet 

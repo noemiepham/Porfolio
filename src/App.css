@@ -34,6 +34,8 @@
   color: white;
   align-items: center;
   padding: 10px;
+  position:absolute;
+  margin-top:-200px;
 }
 /* button click menu hide and show */
 .button-icon {
@@ -84,6 +86,7 @@ header { /* make button icon left of page */
       Height :  300px;
       Top :  150 px;
       Left : 500px;
+      animation: rotateMe 3s linear infinite;
 }
 .circle-flex {
   display: flex;
@@ -106,6 +109,7 @@ font-weight: bold;
 display: flex;
 justify-content: center;
 text-shadow: 2px 2px 4px rgb(88, 81, 81)
+
 }
 /*  SKILLS*/
 .Skills {
@@ -129,6 +133,12 @@ background-image: url(./photoCV/skillbacground-circle.png);
   height: 600px;
 
 }
+@keyframes rotateMe {
+    50%{
+    transform:rotate(45deg);
+    
+  }
+}
 div.photo-cv {
   margin-left: 120px;
   margin-top: 120px;
@@ -143,6 +153,8 @@ div.photo-cv {
   font-weight: bold;
   background-color: #f9f0f0;
   text-align: center;
+  text-decoration: none;
+  
 }
 .skill-right  p {
   width: 500px;
@@ -186,7 +198,7 @@ div.photo-cv {
 /* PROJET */
 .Projet {
 
-      background: url("./photoCV/PROJET_PHOTO.png") no-repeat center center fixed;
+    background: url("./photoCV/PROJET_PHOTO.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -196,19 +208,27 @@ div.photo-cv {
 .projet-content {
   display: flex;
   width: 100%;
-  height: 800px;
+  height: 100%;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .projet-content p {
   display: flex;
   justify-content: center;
   font-size: 30px;
+  
+ 
 }
 div.projet-photo {
   width: 400px;
   height: 400px;
-  background-image: url("./photoCV/css.png"); 
+ /*  background-image: url("./photoCV/css.png");  */
   margin: 20px;
+  border: 1px solid black;
+
+}
+.projet-photo  img {
+  width: 100%;
 }
 /* CONTACT */
 .Contact {
@@ -223,7 +243,7 @@ background-size: cover;
   flex-direction: column;
   margin: auto;
   width: 800px;
-  opacity: 30%;
+  opacity: 70%;
 }
 .type-input input {
   height: 60px;
@@ -253,8 +273,8 @@ textarea {
   height: 50px;
   top: 500px;
   left: 450px;
-  opacity: 40%;
-}
+  opacity: 90%;
+} 
 div.submit-me {
   display: flex;
   justify-content: center;

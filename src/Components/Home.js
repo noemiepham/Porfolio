@@ -1,7 +1,8 @@
 
 const Home = () => {
     return (
-        <section className="home">
+        <section className="home" id ="home">
+           
            <div className ="flex">
                 <div id= "home-background" className="home-fix">    
                     <div className="text">

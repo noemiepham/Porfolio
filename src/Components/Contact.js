@@ -34,12 +34,13 @@ class Contact extends React.Component {
           body: data,
         });
         */
-       alert('coucou')
+       alert('Thank you for your contact ')
       }
 
     render() {
         return (
-        <div className="Contact">
+        <div className="Contact" id ="contact">
+        
             <div className="contact-text">
                 <h1>CONTACT</h1>
                 <h2>HAVE A QUESTION OR WANT TO WORK TOGETHER?</h2>

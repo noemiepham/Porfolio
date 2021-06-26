@@ -2,7 +2,8 @@ import { useState } from 'react';
 const About = () => {
     const [Showtext, setShowtext] = useState("hide")
     return (
-        <section className="About">
+        <section className="About" id="about">
+            
             <h1 className ="style-generale">
                 ABOUT
             </h1>

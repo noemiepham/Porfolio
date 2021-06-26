@@ -2,20 +2,17 @@ const Menu =()=> {
     return (
     <div className="menu">
      <div className ="button-list">
-          <button>
-            HOME
+          <button >
+          <a href ="#home">HOME</a>
           </button>
           <button>
-            ABOUT
+          <a href ="#skills">SKILLS</a>
           </button>
           <button>
-            SKILLS
+          <a href ="#projet">PROJET</a>
           </button>
           <button>
-            PROJET
-          </button>
-          <button>
-            CONTACT
+          <a href ="#contact">CONTACT</a>
           </button>
        
     </div>

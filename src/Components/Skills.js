@@ -1,7 +1,7 @@
 
 const Skills =()=> {
     return (
-        <section className="Skills">
+        <section className="Skills" id = "skills">
                 <h1 className="style-generale ">
                      SKILLS
                 </h1>

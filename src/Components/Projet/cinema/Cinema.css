@@ -1,0 +1,43 @@
+
+header .title {
+    background-color: #F7CC46;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+   
+    }
+    .titlecolumn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    div.deuxiemboite {
+    display: flex;
+    justify-content: center;
+  
+    }
+    div.deuxiemboite span {
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bol
+    
+  
+  
+    }
+   
+    div.columneFilm { 
+    display: flex;
+    height:428px;
+    width: 600px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px grey;
+    
+    
+    }
+    .columneFilm img{ 
+    width: 290px;
+    height: 427px;
+    margin-right: 10px;
+    
+    }

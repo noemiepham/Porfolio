@@ -1,4 +1,5 @@
-import Projet from "./Projet.js"
+import Cinema from "./cinema/Webfilmnoemie"
+import Projet from "./Projet"
 const Projetsource = () => {
     const source = [
         {
@@ -20,10 +21,11 @@ const Projetsource = () => {
             imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp"
         },
         {
-            nameofprojet: 'foot blog',
+            nameofprojet: 'Cinema',
             Date: '22_06_2021',
             Code: "react-javascrips",
             imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",
+            Link:"",
         },
         {
             nameofprojet: 'foot blog',
@@ -60,7 +62,7 @@ const Projetsource = () => {
             </h1>
             <div className="projet-content">
                 {source.map((pro) => {
-                    return <Projet imageAdress={pro.imageURL} name0fprojet={pro.nameofprojet} date={pro.Date} code={pro.Code} />
+                    return <Projet imageAdress={pro.imageURL} name0fprojet={pro.nameofprojet} date={pro.Date} code={pro.Code} onclick = {Cinema}/>
                 })
                 }
             </div>

@@ -1,7 +1,7 @@
 const Projet =(props)=> {
     return (
      
-                  <div >
+                  <div  id ="projet">
                     <div className="projet-photo">
                         <img src={props.imageAdress} alt="" />
                     </div>

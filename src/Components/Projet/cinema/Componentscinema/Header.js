@@ -19,7 +19,7 @@ const Header = (props) => {
 
                 <Link to='/'> <span>Home</span> </Link>
                 <Link to='/popular'> <span>Popular Movies</span> </Link>
-                <Link to='/upcomming'>  <span><u>Upcomming Movie </u> </span> </Link>
+                <Link to='/upcoming'>  <span><u>Upcoming Movie </u> </span> </Link>
                 <Link to='/toprated'> <span>Top Rated Movies</span> </Link>    
            
             </div>

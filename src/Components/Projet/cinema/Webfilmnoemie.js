@@ -1,8 +1,8 @@
 import './Cinema.css';
 import Header from './Componentscinema/Header.js'
 import Home from './Componentscinema/Home.js' 
-import  Populerfilm  from './Componentscinema/Populer-home ';
-import  Upcomingfilms  from './Componentscinema/Populer-home ';
+import  Populerfilm  from './Componentscinema/Populer-home';
+import  Upcomingfilms  from './Componentscinema/Upcoming-home';
 import  Toprate  from './Componentscinema/Toprated-home';
 import React from "react";
 import {
@@ -23,7 +23,7 @@ const Cinema = () => {
         <Route path = '/upcoming'>
           <Upcomingfilms/>
         </Route>
-        <Route path = '/toprate'>
+        <Route path = '/toprated'>
           <Toprate/>
         </Route>
         <Route path = '/'>

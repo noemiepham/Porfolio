@@ -1,5 +1,5 @@
 
-import toprate from '../assets/Cine.js'
+import toprate from '../assets/Toprated-cine'
 import Card from './Card.js'
   
     const Toprate = () => {

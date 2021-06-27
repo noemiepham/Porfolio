@@ -1,5 +1,5 @@
 
-import Populer from '../assets/Cine.js'
+import Populer from '../assets/Populer'
 import Card from './Card.js'
   
     const Populerfilm = () => {

@@ -1,8 +1,8 @@
-import Cinema from "./cinema/Webfilmnoemie"
+/* import Cinema from "./cinema/Webfilmnoemie" */
 import Projet from "./Projet"
 const Projetsource = () => {
     const source = [
-        {
+        {  
             nameofprojet: 'TO_DO_LIST',
             Date: '22_06_2021',
             Code: "react",
@@ -25,7 +25,8 @@ const Projetsource = () => {
             Date: '22_06_2021',
             Code: "react-javascrips",
             imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",
-            Link:"",
+            myPath: "/Cinema",
+            
         },
         {
             nameofprojet: 'foot blog',
@@ -62,7 +63,7 @@ const Projetsource = () => {
             </h1>
             <div className="projet-content">
                 {source.map((pro) => {
-                    return <Projet imageAdress={pro.imageURL} name0fprojet={pro.nameofprojet} date={pro.Date} code={pro.Code} onclick = {Cinema}/>
+                    return <Projet imageAdress={pro.imageURL} name0fprojet={pro.nameofprojet} date={pro.Date} code={pro.Code} myPaths = {pro.myPath}/>
                 })
                 }
             </div>

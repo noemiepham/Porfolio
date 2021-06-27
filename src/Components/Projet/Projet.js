@@ -5,7 +5,8 @@ const Projet =(props)=> {
 
     return (
      
-                  <div  id ="projet">
+                  <div id = {props.name0fprojet}>
+                      
                     <div className="projet-photo" onClick = {() => window.location.href = props.myPaths}>
                         <img src={props.imageAdress} alt="" className="layer1"/>
                         <div className="layer2"></div>

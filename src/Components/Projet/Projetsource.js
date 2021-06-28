@@ -6,49 +6,53 @@ const Projetsource = () => {
             nameofprojet: 'TO_DO_LIST',
             Date: '22_06_2021',
             Code: "react",
-            imageURL: "https://https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp.it/4L9abAQ",
+            imageURL: "https://res.cloudinary.com/dkcx8d2bi/image/upload/v1624823143/todolist_zxfax6.png",
+            myPath: "/todolist"
         },
         {
-            nameofprojet: 'Studio photographer',
+            nameofprojet: 'STUDIO PHOTOGRAPHER',
             Date: '25_05_2021',
             Code: "html-css-bootstrap",
-            imageURL: "https://https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp.it/4L9abAQ",
+            imageURL: "https://res.cloudinary.com/dkcx8d2bi/image/upload/v1624823181/Screen_Shot_2021-06-24_at_13.14.37_hcyyo6.png",
+            myPath: "/studiophoto"
         },
         {
-            nameofprojet: 'World Map',
+            nameofprojet: 'WORLD MAP',
             Date: '22_06_2021',
             Code: "javascrips",
             imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp"
         },
         {
-            nameofprojet: 'Cinema',
+            nameofprojet: 'CINEMA',
             Date: '22_06_2021',
             Code: "react-javascrips",
-            imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",
+            imageURL: "https://res.cloudinary.com/dkcx8d2bi/image/upload/v1624826581/cinema_slbusv.png",
             myPath: "/Cinema",
             
         },
         {
-            nameofprojet: 'foot blog',
+            nameofprojet: 'FOOD BLOG',
+            Date: '22_06_2021',
+            Code: "react-javascrips",
+            imageURL: "https://res.cloudinary.com/dkcx8d2bi/image/upload/v1624823128/foodblog_zzrzno.png",
+            myPath: "/Foodblog"
+        },
+        {
+            nameofprojet: 'Game ',
             Date: '22_06_2021',
             Code: "react-javascrips",
             imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",
+            myPath: "/game"
         },
         {
-            nameofprojet: 'foot blog',
-            Date: '22_06_2021',
-            Code: "react-javascrips",
-            imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",
-        },
-        {
-            nameofprojet: 'foot blog',
+            nameofprojet: 'MAGASIN SHOPING',
             Date: '22_06_2021',
             Code: "react-javascrips",
             imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",
         },
        
         {
-            nameofprojet: 'foot blog',
+            nameofprojet: 'game',
             Date: '22_06_2021',
             Code: "react-javascrips",
             imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",

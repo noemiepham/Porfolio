@@ -8,21 +8,17 @@ const Header = (props) => {
   
         <header>
             <div className="title">
-                <div>
-                    <span>
-                        <img src={logo}  alt=""/>
-                    </span>
-                </div>
-                
-            </div>
-            <div className="deuxiemboite">
+                <img src={logo}  alt=""/>
+                <div className="deuxiemboite">
 
                 <Link to='/'> <span>Home</span> </Link>
                 <Link to='/popular'> <span>Popular Movies</span> </Link>
                 <Link to='/upcoming'>  <span><u>Upcoming Movie </u> </span> </Link>
                 <Link to='/toprated'> <span>Top Rated Movies</span> </Link>    
            
+                </div>
             </div>
+            
             
         </header>
     

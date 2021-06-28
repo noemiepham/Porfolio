@@ -1,7 +1,7 @@
-import { useState } from "react"
+
 
 const Projet =(props)=> {
-    // const [myPath, setmyPath] = useState ("show")
+ 
 
     return (
      

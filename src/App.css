@@ -4,7 +4,8 @@
 
 #home-background {
   background: url(./photoCV/earnnight.png) center center/cover;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: 1;
   left: 0;
   display: flex;
@@ -12,18 +13,8 @@
   justify-content: center;
   align-items: center;
 }
-@media (min-width :320px) {
-  .text{
-    width:320px;
-    height:400px ;
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-  }
- }
 
+ 
 /* text of homepage  */
 .flex {
   display: flex;
@@ -36,16 +27,13 @@
   font-family: cursive;
   text-decoration: white;
   color: white;
-  
- 
 }
-@media (min-width :320px) {
+ @media (max-width:1109px) {
   .text{
-    width:50%;
-    font-size: 20px;
-  
+     font-size: 30px;
   }
- }
+ } 
+
 .text span {
   color: red;
 }
@@ -58,20 +46,21 @@
   display: flex;
   justify-content: center;
 } */
-.viewbox {
+.viewbox a {
   border: 2px solid #f9f0f0;
   font-size: 30px;
   font-weight: bold;
   color: white;
   text-align: center;
+  text-decoration: none;
 }
-@media (min-width :320px) {
+/* @media (min-width :320px) {
   .viewbox{
     width:50%;
     font-size: 10px;
     border: none;
   }
- }
+ } */
 /* button click menu hide and show */
 .button-icon {
   width: 100px;
@@ -114,6 +103,11 @@ header { /* make button icon left of page */
   text-decoration: underline;
   padding-top: 100px;
 }
+@media (max-width:1109px) {
+  .style-generale {
+     font-size: 10px;
+  }
+ } 
 .circle {
       background-image: url(./photoCV/aubout-circle.png);
       clip-path: circle(50%);
@@ -123,20 +117,27 @@ header { /* make button icon left of page */
       Left : 500px;
       animation: rotateMe 3s linear infinite;
 }
+@media (max-width:1109px) {
+  .style-generale {
+     width: 30px;
+     height: 30px;
+     top: 0;
+     left: 0;
+  }
+ } 
 
 
 .circle-flex {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   margin:   150px;
 }
-@media (min-width :320px) {
+/* @media (min-width :320px) {
   .circle-flex{
    
 
-  }
- }
+  } 
+ }*/
 .circle-flex span{
   font-size: 30px;
   font-weight: bold;
@@ -177,12 +178,12 @@ background-image: url(./photoCV/skillbacground-circle.png);
   height: 600px;
 
 }
-@keyframes rotateMe {
+/* @keyframes rotateMe {
     50%{
     transform:rotate(45deg);
     
   }
-}
+} */
 div.photo-cv {
   margin-left: 120px;
   margin-top: 120px;

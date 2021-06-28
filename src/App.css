@@ -1,19 +1,51 @@
+.overflow-wrap  {
+  overflow-x: hidden;
+}
+
 #home-background {
-  background: url(./photoCV/homebackgroun.png) center center/cover;
-  height: 100vh;
-  width: 100vw;
+  background: url(./photoCV/earnnight.png) center center/cover;
+  width: 100%;
   z-index: 1;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+@media (min-width :320px) {
+  .text{
+    width:320px;
+    height:400px ;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  }
+ }
+
 /* text of homepage  */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 .text {
-  font-size: 60px;
+  font-size: 100px;
   font-family: cursive;
   text-decoration: white;
   color: white;
-  padding-top: 100px;
+  
  
 }
+@media (min-width :320px) {
+  .text{
+    width:50%;
+    font-size: 20px;
+  
+  }
+ }
 .text span {
   color: red;
 }
@@ -22,21 +54,24 @@
   justify-content: center;
 }
 /* button view more and arrowdown */
-.flex-wrap-viewbox {
+/* .flex-wrap-viewbox {
   display: flex;
   justify-content: center;
-}
+} */
 .viewbox {
   border: 2px solid #f9f0f0;
-  display: inline-flex;
   font-size: 30px;
   font-weight: bold;
   color: white;
-  align-items: center;
-  padding: 10px;
-  position:absolute;
-  margin-top:-200px;
+  text-align: center;
 }
+@media (min-width :320px) {
+  .viewbox{
+    width:50%;
+    font-size: 10px;
+    border: none;
+  }
+ }
 /* button click menu hide and show */
 .button-icon {
   width: 100px;
@@ -82,17 +117,26 @@ header { /* make button icon left of page */
 .circle {
       background-image: url(./photoCV/aubout-circle.png);
       clip-path: circle(50%);
-      Width : 300px;
-      Height :  300px;
+      Width : 200px;
+      Height :  200px;
       Top :  150 px;
       Left : 500px;
       animation: rotateMe 3s linear infinite;
 }
+
+
 .circle-flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin:   150px;
 }
+@media (min-width :320px) {
+  .circle-flex{
+   
+
+  }
+ }
 .circle-flex span{
   font-size: 30px;
   font-weight: bold;
@@ -215,20 +259,64 @@ div.photo-cv {
 .projet-content p {
   display: flex;
   justify-content: center;
-  font-size: 30px;
-  
- 
+
 }
 div.projet-photo {
   width: 400px;
   height: 400px;
  /*  background-image: url("./photoCV/css.png");  */
   margin: 20px;
-  border: 1px solid black;
-
+  border: 1px solid rgb(247, 241, 241);
+  position: relative;
+  box-shadow: 1px 5px 5px white;
 }
 .projet-photo  img {
   width: 100%;
+}
+.projet-photo .layer1 {
+  width: 400px;
+  height: 400px;
+
+}
+.projet-photo .layer2 {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  top:0;
+  left:0;
+  transition: 0.4s;
+}
+.projet-photo:hover .layer2 {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top:0;
+  left:0;
+  transition: 0.4s;
+}
+
+.projet-photo .layer3 {
+  color:rgb(14, 13, 13);
+  top: 147px;;
+  left: 147px;
+  transition: 0.4s;
+  transform:scale(0);
+  position: absolute;
+
+}
+
+.projet-photo:hover .layer3 {
+  color:rgb(14, 13, 13);
+  top: 147px;;
+  left: 147px;
+  position: absolute;
+  transition: 0.4s;
+  opacity: O.6;
+  transform: scale(1);
 }
 /* CONTACT */
 .Contact {

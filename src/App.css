@@ -112,6 +112,7 @@ header { /* make button icon left of page */
       Height :  200px;
       margin: auto;
       animation: rotateMe 3s linear infinite;
+      
 }
 @keyframes rotateMe {
   50%{

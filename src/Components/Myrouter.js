@@ -4,7 +4,7 @@ import {
     Route,
   } from "react-router-dom";
 import Cinema from "./Projet/cinema/Webfilmnoemie";
-import Foodblog from "./Projet/Foodblog.js/Foodblog";
+import Foodblog from "./Projet/Foodblog/Foodblog.js";
 const Myrouter =()=> {
     return (
         <Router>

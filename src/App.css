@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: ;
 }
 
  
@@ -103,50 +104,56 @@ header { /* make button icon left of page */
   text-decoration: underline;
   padding-top: 100px;
 }
-@media (max-width:1109px) {
-  .style-generale {
-     font-size: 10px;
-  }
- } 
+ 
 .circle {
       background-image: url(./photoCV/aubout-circle.png);
       clip-path: circle(50%);
       Width : 200px;
       Height :  200px;
-      Top :  150 px;
-      Left : 500px;
+      margin: auto;
       animation: rotateMe 3s linear infinite;
 }
-@media (max-width:1109px) {
+@keyframes rotateMe {
+  50%{
+  transform: translateX(0px) rotate(360deg);
+}
+}
+/* @media (max-width:1109px) {
   .style-generale {
      width: 30px;
      height: 30px;
      top: 0;
      left: 0;
   }
- } 
+ }  */
 
 
 .circle-flex {
   display: flex;
-  justify-content: space-between;
-  margin:   150px;
+  width: 100%;
 }
-/* @media (min-width :320px) {
-  .circle-flex{
-   
 
-  } 
- }*/
+@media (max-width:1109px) {
+ /*  .circle {
+    Width : 50%;
+    Height :  50%;
+    Top :  0 px;
+    Left : 0px;
+  }
+  .textAbout {
+   font-size: 0px;
+  } */
+  .circle-flex{
+    width: 10%;
+  }
+ } 
 .circle-flex span{
   font-size: 30px;
   font-weight: bold;
   color: white; 
 }
-.textAbout-p {
-  margin-bottom: 30px;
-}
-.About p {
+
+.textAbout {
 text-align: center;
 font-size: 30px;
 font-family: cursive;
@@ -155,6 +162,11 @@ display: flex;
 justify-content: center;
 text-shadow: 2px 2px 4px rgb(88, 81, 81)
 
+}
+@media (max-width:1109px) {
+  .textAbout{
+     font-size: 0;
+  }
 }
 /*  SKILLS*/
 .Skills {
@@ -172,18 +184,18 @@ text-shadow: 2px 2px 4px rgb(88, 81, 81)
   margin-right: 200px;
   
 }
+@media (max-width:1109px){
+  .content-skill {
+  flex-direction: column;
+  }
+}
 .skill-left {
 background-image: url(./photoCV/skillbacground-circle.png);
   width: 600px;
   height: 600px;
 
 }
-/* @keyframes rotateMe {
-    50%{
-    transform:rotate(45deg);
-    
-  }
-} */
+
 div.photo-cv {
   margin-left: 120px;
   margin-top: 120px;
@@ -193,6 +205,7 @@ div.photo-cv {
   width: 100%;
 
 }
+
 .skill-left p {
   font-size: 30px;
   font-weight: bold;

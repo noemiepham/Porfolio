@@ -1,7 +1,7 @@
 import './App.css';
 import About from './Components/About'
 import Home from './Components/Home'
-import Skills from './Components/Skills'
+/* import Skills from './Components/Skills' */
 import Projetsource from './Components/Projet/Projetsource'
 import Contact from './Components/Contact'
 import Menu from './Components/Menu'
@@ -37,7 +37,7 @@ function App() {
       
             <About />
      
-            <Skills />
+          {/*   <Skills /> */}
 
             <Projetsource/>
 

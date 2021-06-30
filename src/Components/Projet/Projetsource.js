@@ -1,4 +1,4 @@
-/* import Cinema from "./cinema/Webfilmnoemie" */
+
 import Projet from "./Projet"
 const Projetsource = () => {
     const source = [
@@ -38,17 +38,17 @@ const Projetsource = () => {
             myPath: "/Foodblog"
         },
         {
-            nameofprojet: 'Game ',
+            nameofprojet: 'GAME  CHIFOUMIE ',
             Date: '22_06_2021',
             Code: "react-javascrips",
-            imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",
+            imageURL: "https://res.cloudinary.com/dkcx8d2bi/image/upload/v1624884488/Screen_Shot_2021-06-28_at_14.45.28_tzpiga.png",
             myPath: "/game"
         },
         {
             nameofprojet: 'MAGASIN SHOPING',
             Date: '22_06_2021',
             Code: "react-javascrips",
-            imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",
+            imageURL: "https://res.cloudinary.com/dkcx8d2bi/image/upload/v1624883395/Screen_Shot_2021-06-28_at_14.25.06_mcsebg.png",
         },
        
         {

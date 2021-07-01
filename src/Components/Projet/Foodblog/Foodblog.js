@@ -1,11 +1,12 @@
 
 import './Foodblog.css';
-import Header from './Foodcomponents/Header.js'
+import Headerfood from './Foodcomponents/Headerfood.js'
 import Asiafood from './Foodcomponents/Asiafood.js'
 import Newrecipes from './Foodcomponents/Newrecipe';
 import RecipesLoving from './Foodcomponents/RecipesLoving';
 import Foodweek from './Foodcomponents/Foodweek';
 import Foodoftheworld from './Foodcomponents/Foodoftheworld';
+import AppelApi from './Foodcomponents/AppelApi';
 import { useState } from 'react';
 
 
@@ -13,7 +14,7 @@ function Foodblog  () {
   const [compteurPlat,setcompteurPlat] = useState(0)
   return (
     <div className="body">
-          <Header tata={compteurPlat}/>
+          <Headerfood tata={compteurPlat}/>
           <section className ="Allrecipes">
             <Newrecipes/>
 

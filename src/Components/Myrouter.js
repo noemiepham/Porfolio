@@ -5,6 +5,8 @@ import {
   } from "react-router-dom";
 import Cinema from "./Projet/cinema/Webfilmnoemie";
 import Foodblog from "./Projet/Foodblog/Foodblog.js";
+import Todolist from "./Projet/Todolist/Todolist.js";
+
 const Myrouter =()=> {
     return (
         <Router>
@@ -17,7 +19,9 @@ const Myrouter =()=> {
             <Foodblog />
                 </Route>
                 <Route path="/game">
-        
+                </Route>
+                <Route path="/todolist">
+            <Todolist/>
                 </Route>
           
             </Switch>

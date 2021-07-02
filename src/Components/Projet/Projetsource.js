@@ -16,12 +16,12 @@ const Projetsource = () => {
             imageURL: "https://res.cloudinary.com/dkcx8d2bi/image/upload/v1624823181/Screen_Shot_2021-06-24_at_13.14.37_hcyyo6.png",
             myPath: "/studiophoto"
         },
-        {
+      /*   {
             nameofprojet: 'WORLD MAP',
             Date: '22_06_2021',
             Code: "javascrips",
             imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp"
-        },
+        }, */
         {
             nameofprojet: 'CINEMA',
             Date: '22_06_2021',
@@ -51,13 +51,13 @@ const Projetsource = () => {
             imageURL: "https://res.cloudinary.com/dkcx8d2bi/image/upload/v1624883395/Screen_Shot_2021-06-28_at_14.25.06_mcsebg.png",
         },
        
-        {
+    /*     {
             nameofprojet: 'game',
             Date: '22_06_2021',
             Code: "react-javascrips",
             imageURL: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/vietnamese-coffee-4189.webp",
         },
-     
+      */
        
     ]
     return (

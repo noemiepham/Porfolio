@@ -6,7 +6,6 @@ import Newrecipes from './Foodcomponents/Newrecipe';
 import RecipesLoving from './Foodcomponents/RecipesLoving';
 import Foodweek from './Foodcomponents/Foodweek';
 import Foodoftheworld from './Foodcomponents/Foodoftheworld';
-import AppelApi from './Foodcomponents/AppelApi';
 import { useState } from 'react';
 
 

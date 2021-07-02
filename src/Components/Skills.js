@@ -6,8 +6,9 @@ const Skills =()=> {
                      SKILLS
                 </h1>
                 <div className="content-skill">
+                         
                         <div className="skill-left">
-                                <div className="photo-cv"></div>
+                                <div className="photo-cv">PHAM TIEU QUY (Noemie)</div>
                                 <button><a href="./CV_E03.docx" download>Download my CV </a></button>
                                 
                         </div>

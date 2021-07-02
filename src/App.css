@@ -157,17 +157,20 @@ nav {
 }
 
 @media (max-width:1109px) {
- /*  .circle {
+  .bloc-circle {
+    width: 100px;
+  }
+ .circle {
     Width : 50%;
     Height :  50%;
     Top :  0 px;
     Left : 0px;
   }
   .textAbout {
-   font-size: 0px;
-  } */
+   font-size: 30%;
+  }  
   .circle-flex{
-    width: 10%;
+    width: 50%;
   }
  } 
 .circle-flex span{

@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react';
 
-const Foodoftheworld =( ) => {
+const Foodoftheworld = () => {
 
     // Exemple d'API
     /*
@@ -26,26 +26,25 @@ const Foodoftheworld =( ) => {
     }, [])
 
     return (
-        <section id="Menuweek">
+        <div className="breakpage">
+            <div className="my-recipes">FOOD OF THE WORLD </div>
+            <section className="Menuweek-foodworld">
+                {data === null ?
+                    <div>Recherche des données en cours ...</div>
+                    :
+                    // Lorsque data est disponible on affiche la liste des plats
+                    data.meals.map((plat) => {
+                        return (
+                            <div>
+                                <img className="imagefoodworld" src={plat.strMealThumb} alt=""></img>
+                                <div className="Nom du plat">{plat.strMeal}</div>
+                            </div>
 
-            {data === null ?
-                <div>Recherche des données en cours ...</div>
-            :
-            // Lorsque data est disponible on affiche la liste des plats
-            data.meals.map((plat) => {
-                return (
-                    <div id={plat.idMeal} className="Menuweek"> 
-                    <div className="breakpage"></div>
-                    <div className="my-recipes">ASIA FOOD </div>
-                    <div   className="Carroussel">
-                        <div className="Nom du plat">{plat.strMeal}</div>
-                        <img src={plat.strMealThumb}></img>
-                    </div>
-                    </div>
-                )
-                })
-            }
-        </section>
+                        )
+                    })
+                }
+            </section>
+        </div>
     )
 }
 export default Foodoftheworld

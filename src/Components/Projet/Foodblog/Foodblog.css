@@ -81,6 +81,13 @@ header{
     flex-wrap: wrap;
     justify-content: center;
 }
+.imagefoodworld {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 50px;
+
+}
 .listfood img {
     width: 400px;
     height: 400px;
@@ -142,3 +149,9 @@ width: 25%;
     height: 200px;
 
   }
+/* foodworld */
+.Menuweek-foodworld {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}

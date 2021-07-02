@@ -34,9 +34,13 @@ const Foodoftheworld =( ) => {
             // Lorsque data est disponible on affiche la liste des plats
             data.meals.map((plat) => {
                 return (
-                    <div id={plat.idMeal} className="my-recipes"> 
+                    <div id={plat.idMeal} className="Menuweek"> 
+                    <div className="breakpage"></div>
+                    <div className="my-recipes">ASIA FOOD </div>
+                    <div   className="Carroussel">
                         <div className="Nom du plat">{plat.strMeal}</div>
                         <img src={plat.strMealThumb}></img>
+                    </div>
                     </div>
                 )
                 })

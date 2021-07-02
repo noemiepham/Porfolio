@@ -15,7 +15,7 @@ const Skills =()=> {
                             <p id="HTML">HTML</p>
                             <p id="css">CSS</p>
                             <p id="bootstrap">BOOTSTRAP</p>
-                            <p id="javascrip">JAVASCRIP</p>
+                            <p id="javascrip">JAVASCRIPT</p>
                             <p id="react">REACT</p>
                             <p id="photoshop">PHOTOSHOP-FIGMA</p>
                             <p id="videopro">PREMIER VIDEO PRO</p>

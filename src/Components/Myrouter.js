@@ -16,6 +16,9 @@ const Myrouter =()=> {
                 <Route path="/foodblog">
             <Foodblog />
                 </Route>
+                <Route path="/game">
+        
+                </Route>
           
             </Switch>
         </Router>

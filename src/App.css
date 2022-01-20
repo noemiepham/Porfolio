@@ -198,13 +198,33 @@ text-shadow: 2px 2px 4px rgb(88, 81, 81)
   }
 }
 /*  SKILLS*/
-.Skills {
-    background: url("./photoCV/About-new.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+.photo-cv .rotate {
+  width: 600px;
+  height: 600px;
+
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  transition: 0.4s;
+}
+.photo-cv:hover .rotate {
+  animation: rotateMe2 5s linear infinite;
+}
+@keyframes rotateMe2 {
+  50%{
+  transform: translateX(0px) rotate(360deg);
+}
+}
+
+.photo-cv .me {
+  width: 600px;
+  height: 600px;
+
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  transition: 0.4s;
+}
 
 .content-skill {
   display: flex;

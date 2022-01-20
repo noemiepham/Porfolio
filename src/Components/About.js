@@ -1,4 +1,4 @@
-/* import { useState } from 'react'; */
+
 const About = () => {
     /*  const [Showtext, setShowtext] = useState("hide") */
     return (
@@ -48,7 +48,10 @@ const About = () => {
                 </h1> */}
                 <div className="content-skill">
                         <div className="skill-left">
-                                <div className="photo-cv"></div>
+                                <div className="photo-cv">
+                                    <img  className="rotate" src={"https://res.cloudinary.com/dkcx8d2bi/image/upload/v1625606205/IMG_9227_ubxc5a.jpg"}/>
+                                    <img className="me"  src ={"https://res.cloudinary.com/dkcx8d2bi/image/upload/v1625606350/skillbacground-circle_tcyil8.png"}/>
+                                </div>
                                 <button><a href="./CV_E03.docx" download>Download my CV </a></button>
                                 
                         </div>
